@@ -33,3 +33,16 @@ document.addEventListener("DOMContentLoaded", () => {
     });
   });
 });
+
+
+
+
+function scrollTestimonials(direction) {
+    const container = document.getElementById('testimonialsCarousel');
+    const scrollAmount = 320 + 24; // card width + gap
+
+    container.scrollBy({
+      left: direction === 'left' ? -scrollAmount : scrollAmount,
+      behavior: 'smooth'
+    });
+  }

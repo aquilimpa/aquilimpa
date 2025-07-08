@@ -6,6 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Aqui Limpa</title>
   <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" type="text/css"
     href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.1/src/regular/style.css" />
   <link rel="stylesheet" type="text/css"
@@ -51,13 +56,20 @@
         <h1 class="hero__title">
           Sua <span class="hero__highlight">Limpeza Profissional</span> de Confiança no Porto
         </h1>
+        <div class="focus-hero__text">
+          <svg xmlns="http://www.w3.org/2000/svg" width="204" height="17" viewBox="0 0 204 17" fill="none">
+            <path
+              d="M3 12.3942C17.7867 9.81434 48.7061 3.00004 60.2061 2.50007C60.9612 2.46724 42.5617 14.571 43.2061 14.5001C97.7061 8.50006 151.111 8.74263 200.706 6.00006"
+              stroke="#14D1D3" stroke-width="5" stroke-linecap="round" />
+          </svg>
+        </div>
         <p class="hero__subtitle">
           Serviços de limpeza especializados para residências, comércios, alojamentos locais e pós-obras.
         </p>
-        <a href="#" class="button button--primary">Solicitar Serviço</a>
+        <a href="#" class="button button--primary mg-t__md">Solicitar Serviço</a>
       </div>
       <div class="hero__media">
-        <img src="assets/img/hero__media.svg" alt="Serviço de Limpeza" class="hero__image">
+        <img src="assets/img/hero__media.svg" alt="Serviço de Limpeza">
       </div>
     </div>
   </section>
@@ -67,12 +79,20 @@
         <img src="assets/img/garota.svg" alt="Funcionária Aqui Limpa" class="about__image">
         <div class="about__content">
           <h2 class="about__title">Quem somos</h2>
+          <div class="focus__text">
+            <svg xmlns="http://www.w3.org/2000/svg" width="162" height="12" viewBox="0 0 162 12" fill="none">
+              <path
+                d="M1 8.92045C12.9666 6.98558 37.9891 1.87502 47.2958 1.50005C47.907 1.47543 33.0166 10.553 33.538 10.4998C77.6439 5.99991 120.864 6.18183 161 4.12496"
+                stroke="#14D1D3" stroke-width="2" stroke-linecap="round" />
+            </svg>
+          </div>
           <p class="about__subtitle">Na Aqui Limpa, acreditamos que limpeza é sinônimo de bem-estar.</p>
           <p class="about__text">Com uma equipa dedicada e treinada, oferecemos soluções profissionais para quem
             valoriza
             tempo, conforto e confiança. Seja na sua casa ou no seu negócio, cuidamos de cada detalhe com carinho e
             excelência.</p>
-          <p class="about__highlight">Há mais de <strong>2 anos</strong> ganhando força e destaque no setor.</p>
+          <p class="about__highlight">Há mais de <span class="blue-light">2 anos</span> ganhando força e destaque no
+            setor.</p>
           <a href="#" class="button button--tertiary">Saiba mais</a>
         </div>
       </div>
@@ -102,7 +122,7 @@
           <p class="quality__text">Utilizamos produtos certificados que eliminam germes, bactérias e vírus, garantindo
             um ambiente não apenas limpo, mas também higienizado, seguro e com um aroma fresco e agradável.</p>
         </div>
-<div class="divs"></div>
+        <div class="divs"></div>
         <div class="quality__card">
           <div class="quality__content">
 
@@ -118,39 +138,277 @@
       </div>
     </section>
 
+    <section class="services">
+      <div class="services__header">
+        <h2 class="services__title">Soluções de Limpeza Profissional para Qualquer Ambiente</h2>
+        <p class="services__subtitle">Residências, empresas, alojamentos e muito mais. Cuidamos de cada detalhe com
+          eficiência e confiança.</p>
+        <a href="#" class="button button--primary">Solicite seu Orçamento</a>
+      </div>
+      <div class="services__cards">
+        <div class="service-card">
+          <div class="service-card__header">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34" viewBox="0 0 35 34" fill="none">
+                <path
+                  d="M23.1668 21.25C23.9492 21.25 24.5835 21.8842 24.5835 22.6667V29.75C24.5835 30.5324 23.9492 31.1667 23.1668 31.1667H17.5001C16.7178 31.1667 16.0835 30.5324 16.0835 29.75V22.6667C16.0835 21.8842 16.7177 21.25 17.5001 21.25H23.1668ZM18.9168 28.3333H21.7501V24.0833H18.9168V28.3333Z"
+                  fill="#1D4670" />
+                <path
+                  d="M4.75 29.75V4.49089C4.75 4.07456 4.93313 3.6793 5.25074 3.41013C5.56836 3.14096 5.9883 3.02513 6.39899 3.09341L29.0656 6.86172C29.749 6.97533 30.25 7.5665 30.25 8.25924V29.75C30.25 30.5324 29.6157 31.1667 28.8333 31.1667H11.8333C11.0509 31.1667 10.4167 30.5324 10.4167 29.75V17H7.58331V29.75C7.58331 30.5324 6.94906 31.1667 6.16665 31.1667C5.38425 31.1667 4.75 30.5324 4.75 29.75ZM13.25 28.3334H27.4167V17H13.25V28.3334ZM7.58331 14.1667H27.4167V9.45982L7.58331 6.1625V14.1667Z"
+                  fill="#1D4670" />
+                <path
+                  d="M3.35327 4.01257C3.48236 3.25329 4.19329 2.73855 4.95121 2.84772L4.98736 2.85337L6.39887 3.09338L6.39891 3.09334L29.0656 6.86169C29.0673 6.86197 29.069 6.86227 29.0707 6.86256L30.4874 7.10337L30.5233 7.10997C31.2747 7.25738 31.7756 7.97817 31.6466 8.73746C31.5175 9.49673 30.8065 10.0115 30.0486 9.90231L30.0125 9.89666L28.6009 9.65665V9.65669L5.93423 5.88834C5.93254 5.88806 5.93086 5.88775 5.92917 5.88747L4.51248 5.64666L4.47653 5.64006C3.7251 5.49265 3.22419 4.77186 3.35327 4.01257Z"
+                  fill="#1D4670" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Limpeza para Airbnb</h3>
+          </div>
+          <ul class="service-card__features">
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Entre hóspedes</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Profunda periódica</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Serviço de lavandaria</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Gestão de inventário</li>
+          </ul>
+          <a href="#" class="service-card__link ">Saiba mais</a>
+        </div>
+        <div class="service-card">
+          <div class="service-card__header">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                <path
+                  d="M19.8333 19.8334C20.6157 19.8334 21.25 20.4676 21.25 21.25V29.75C21.25 30.5324 20.6157 31.1667 19.8333 31.1667H14.1667C13.3842 31.1667 12.75 30.5324 12.75 29.75V21.25C12.75 20.4676 13.3842 19.8334 14.1667 19.8334H19.8333ZM15.5833 28.3334H18.4167V22.6667H15.5833V28.3334Z"
+                  fill="#1D4670" />
+                <path
+                  d="M25.7814 2.83335C26.4049 2.81824 27.0163 3.00915 27.5206 3.37726C28.0325 3.75096 28.4042 4.28549 28.5765 4.89527H28.5766L31.1124 13.7778C31.2344 14.2052 31.1488 14.6651 30.8811 15.0199C30.6134 15.3747 30.1947 15.5834 29.7502 15.5834V29.75C29.7502 30.5324 29.1159 31.1667 28.3335 31.1667H5.66683C4.88443 31.1667 4.25018 30.5324 4.25018 29.75V15.5834C3.80717 15.5834 3.38967 15.3761 3.12181 15.0233C2.85395 14.6704 2.76656 14.2126 2.88565 13.7859L5.36485 4.90336L5.36501 4.90265C5.5364 4.2898 5.90913 3.75247 6.42311 3.37726C6.92738 3.00915 7.53882 2.81824 8.16229 2.83335H25.7814ZM13.7519 15.1684C13.4945 15.4258 13.1483 15.5739 12.7854 15.5829L12.7502 15.5834H7.08352V28.3334H26.9168V15.5834H21.2502C20.8745 15.5834 20.5141 15.4341 20.2484 15.1684L17.0002 11.9202L13.7519 15.1684ZM25.85 5.6657C25.8326 5.66635 25.8151 5.6667 25.7977 5.6667H8.14602C8.12857 5.6667 8.11108 5.66635 8.09364 5.6657L6.1164 12.75H12.1634L15.9984 8.91496L16.0246 8.88944C16.5796 8.36185 17.4573 8.37036 18.0019 8.91496L21.837 12.75H27.8725L25.8521 5.67309C25.8514 5.67064 25.8507 5.66816 25.85 5.6657Z"
+                  fill="#1D4670" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Limpeza Residencial</h3>
+          </div>
+          <ul class="service-card__features">
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Regular (Manutenção)</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Profunda</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Estofados e Tapetes</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Pós-Obra ou Pós-Reforma
+            </li>
+          </ul>
+          <a href="#" class="service-card__link ">Saiba mais</a>
+        </div>
+        <div class="service-card">
+          <div class="service-card__header">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                <path
+                  d="M19.8332 19.8333C20.6156 19.8333 21.2498 20.4676 21.2498 21.25V29.75C21.2498 30.5324 20.6156 31.1667 19.8332 31.1667H14.1665C13.3841 31.1667 12.7498 30.5324 12.7498 29.75V21.25C12.7498 20.4676 13.3841 19.8333 14.1665 19.8333H19.8332ZM15.5832 28.3333H18.4165V22.6667H15.5832V28.3333ZM14.1665 14.1667L14.2031 14.1671C14.9686 14.1865 15.5831 14.8131 15.5832 15.5833C15.5832 16.3535 14.9686 16.9801 14.2031 16.9995L14.1665 17H11.3332C10.5508 17 9.9165 16.3657 9.9165 15.5833C9.91651 14.8009 10.5508 14.1667 11.3332 14.1667H14.1665ZM22.6665 14.1667L22.7031 14.1671C23.4686 14.1865 24.0831 14.8131 24.0832 15.5833C24.0832 16.3535 23.4686 16.9801 22.7031 16.9995L22.6665 17H19.8332C19.0508 17 18.4165 16.3657 18.4165 15.5833C18.4165 14.8009 19.0508 14.1667 19.8332 14.1667H22.6665ZM14.1665 8.5L14.2031 8.50046C14.9686 8.51986 15.5832 9.14648 15.5832 9.91665C15.5832 10.6868 14.9686 11.3134 14.2031 11.3328L14.1665 11.3333H11.3332C10.5508 11.3333 9.9165 10.6991 9.9165 9.91665C9.9165 9.13425 10.5508 8.5 11.3332 8.5H14.1665ZM22.6665 8.5L22.7031 8.50046C23.4686 8.51986 24.0832 9.14648 24.0832 9.91665C24.0832 10.6868 23.4686 11.3134 22.7031 11.3328L22.6665 11.3333H19.8332C19.0508 11.3333 18.4165 10.6991 18.4165 9.91665C18.4165 9.13425 19.0508 8.5 19.8332 8.5H22.6665Z"
+                  fill="#1D4670" />
+                <path
+                  d="M7.0835 5.66668V28.3334H26.9168V5.66668H7.0835ZM29.7501 28.3334L29.7867 28.3338C30.5522 28.3532 31.1668 28.9798 31.1668 29.75C31.1668 30.5202 30.5522 31.1468 29.7867 31.1662L29.7501 31.1667H4.25015C3.46775 31.1667 2.8335 30.5324 2.8335 29.75C2.8335 28.9798 3.44808 28.3532 4.21358 28.3338L4.25015 28.3334V5.66668C4.25015 4.91524 4.54867 4.19459 5.08002 3.66324C5.61137 3.13189 6.33205 2.83337 7.0835 2.83337H26.9168C27.6682 2.83337 28.3889 3.13189 28.9203 3.66324C29.4516 4.1946 29.7501 4.91524 29.7501 5.66668V28.3334Z"
+                  fill="#1D4670" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Limpeza de Escritórios</h3>
+          </div>
+          <ul class="service-card__features">
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Diária ou Periódica de
+              Manutenção</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Pós-Evento ou Reuniões
+            </li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Profunda Corporativa</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Reposição de Materiais de
+              Higiene</li>
+          </ul>
+          <a href="#" class="service-card__link ">Saiba mais</a>
+        </div>
+      </div>
+      <div class="services__cards">
+        <div class="service-card">
+          <div class="service-card__header">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34" viewBox="0 0 35 34" fill="none">
+                <path
+                  d="M26 14.1666V5.66656H24.5833V9.91656C24.5833 10.699 23.9491 11.3333 23.1667 11.3333C22.3842 11.3333 21.75 10.699 21.75 9.91656V5.66656C21.75 4.91513 22.0485 4.19447 22.5798 3.66312C23.1112 3.13177 23.8319 2.83326 24.5833 2.83325H26C26.7514 2.83326 27.4721 3.13177 28.0035 3.66312C28.5348 4.19447 28.8333 4.91513 28.8333 5.66656V14.1666C28.8333 14.949 28.1991 15.5833 27.4167 15.5833C26.6342 15.5833 26 14.949 26 14.1666Z"
+                  fill="#1D4670" />
+                <path
+                  d="M26.0002 16.9999C26.0002 16.3924 26.3826 15.8743 26.9198 15.673L17.5002 6.2534L8.08056 15.673C8.61777 15.8743 9.0002 16.3924 9.0002 16.9999V28.3333H26.0002V16.9999ZM28.8335 28.3333C28.8335 29.0847 28.535 29.8054 28.0037 30.3367C27.4723 30.8681 26.7516 31.1666 26.0002 31.1666H9.0002C8.24876 31.1666 7.52808 30.8681 6.99672 30.3367C6.46538 29.8054 6.16686 29.0847 6.16685 28.3333V18.4166H4.7502C4.17721 18.4166 3.66065 18.0714 3.44137 17.542C3.22211 17.0127 3.3433 16.4033 3.74846 15.9982L16.4985 3.24818L16.5247 3.22266C17.0797 2.69508 17.9573 2.70358 18.5019 3.24818L31.2519 15.9982C31.6571 16.4033 31.7783 17.0127 31.559 17.542C31.3398 18.0714 30.8232 18.4166 30.2502 18.4166H28.8335V28.3333Z"
+                  fill="#1D4670" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Limpeza de Condomínios</h3>
+          </div>
+          <ul class="service-card__features">
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Áreas Comuns</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Garagens e Estacionamentos
+            </li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Vidros e Fachadas Internas
+            </li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Áreas de Lazer</li>
+          </ul>
+          <a href="#" class="service-card__link ">Saiba mais</a>
+        </div>
+        <div class="service-card">
+          <div class="service-card__header">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="35" height="34" viewBox="0 0 35 34" fill="none">
+                <path
+                  d="M23.1668 19.8333C23.9492 19.8333 24.5835 20.4675 24.5835 21.2499V29.7499C24.5835 30.5323 23.9492 31.1666 23.1668 31.1666H17.5001C16.7177 31.1666 16.0835 30.5323 16.0835 29.7499V21.2499C16.0835 20.4675 16.7177 19.8333 17.5001 19.8333H23.1668ZM18.9168 28.3333H21.7501V22.6666H18.9168V28.3333Z"
+                  fill="#1D4670" />
+                <path
+                  d="M11.005 3.10078C11.3743 2.83451 11.8491 2.76197 12.2811 2.90584L28.3178 8.24669C28.319 8.2471 28.3203 8.24755 28.3215 8.24797C28.908 8.44511 29.4138 8.82878 29.7617 9.3404C30.101 9.83932 30.2718 10.4332 30.2501 11.0353V28.3333L30.2867 28.3337C31.0522 28.3531 31.6668 28.9798 31.6668 29.7499C31.6668 30.5201 31.0522 31.1467 30.2867 31.1661L30.2501 31.1666H4.75015C3.96775 31.1666 3.3335 30.5323 3.3335 29.7499C3.3335 28.9798 3.94808 28.3531 4.71358 28.3337L4.75015 28.3333V14.1666C4.75015 13.4152 5.04867 12.6945 5.58002 12.1632C6.11137 11.6318 6.83205 11.3333 7.5835 11.3333H10.4168V4.24994C10.4168 3.79463 10.6357 3.36706 11.005 3.10078ZM13.2501 28.3333H27.4168V11.0074C27.4168 10.9828 27.4175 10.9582 27.4188 10.9336V10.9336L13.2501 6.2149V28.3333ZM7.5835 28.3333H10.4168V14.1666H7.5835V28.3333Z"
+                  fill="#1D4670" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Limpeza de Hotéis</h3>
+          </div>
+          <ul class="service-card__features">
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Quartos (Room Service)
+            </li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Áreas Comuns</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Pós-Check-out (Turnover)
+            </li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Lavandaria e Gestão de
+              Enxoval</li>
+          </ul>
+          <a href="#" class="service-card__link ">Saiba mais</a>
+        </div>
+        <div class="service-card">
+          <div class="service-card__header">
+            <div class="service-card__icon">
+              <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 34 34" fill="none">
+                <path
+                  d="M10.4833 4.25C10.859 4.25 11.2194 4.39924 11.485 4.66491L18.2 11.3799C18.7533 11.9332 18.7533 12.8301 18.2 13.3834C17.6554 13.928 16.7778 13.9365 16.2228 13.4089L16.1966 13.3834L9.89648 7.08331H5.66665C4.88425 7.08331 4.25 6.44906 4.25 5.66665C4.25 4.88425 4.88425 4.25 5.66665 4.25H10.4833Z"
+                  fill="#1D4670" />
+                <path
+                  d="M5.6665 17V5.66665C5.6665 4.88425 6.30075 4.25 7.08316 4.25C7.86556 4.25 8.49981 4.88425 8.49981 5.66665V17C8.4998 17.7824 7.86556 18.4167 7.08316 18.4167C6.30076 18.4167 5.66651 17.7824 5.6665 17Z"
+                  fill="#1D4670" />
+                <path
+                  d="M28.3335 25.4999C28.3335 25.1242 28.1842 24.7638 27.9185 24.4982C27.6612 24.2408 27.315 24.0927 26.952 24.0837L26.9168 24.0833H7.0835C6.70778 24.0833 6.34743 24.2325 6.08176 24.4982C5.81608 24.7638 5.6668 25.1242 5.6668 25.4999C5.6668 25.8756 5.81608 26.236 6.08176 26.5016C6.34743 26.7673 6.70778 26.9166 7.0835 26.9166H26.9168C27.2925 26.9166 27.6529 26.7673 27.9185 26.5016C28.1842 26.236 28.3335 25.8756 28.3335 25.4999ZM20.6412 9.91656C20.6397 9.91924 20.638 9.92194 20.6364 9.92461L17.0099 15.9499C17.0037 15.9627 17.0004 15.9768 17.0001 15.991V21.2499H25.5001V9.91656H20.6412ZM28.3335 21.493C28.9255 21.7024 29.4695 22.0422 29.922 22.4947C30.719 23.2917 31.1668 24.3727 31.1668 25.4999C31.1668 26.6271 30.719 27.7081 29.922 28.5051C29.125 29.3021 28.044 29.7499 26.9168 29.7499H7.0835C5.95633 29.7499 4.87531 29.3021 4.07828 28.5051C3.28125 27.7081 2.8335 26.6271 2.8335 25.4999C2.8335 24.3727 3.28125 23.2917 4.07828 22.4947C4.87531 21.6977 5.95633 21.2499 7.0835 21.2499H14.1668V15.9799C14.1668 15.9758 14.1669 15.9718 14.1669 15.9677C14.1712 15.4677 14.3032 14.9771 14.5505 14.5425C14.5562 14.5325 14.5621 14.5226 14.568 14.5127L18.2089 8.46355V8.46359C18.4594 8.04422 18.8141 7.69668 19.2386 7.45479C19.6658 7.21138 20.149 7.08334 20.6407 7.08325H25.5001C26.2516 7.08325 26.9723 7.38177 27.5036 7.91312C28.035 8.44447 28.3335 9.16512 28.3335 9.91656V21.493Z"
+                  fill="#1D4670" />
+              </svg>
+            </div>
+            <h3 class="service-card__title">Limpeza Pós-Obra</h3>
+          </div>
+          <ul class="service-card__features">
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Remoção de Resíduos</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Limpeza Detalhada</li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Desinfecção de Ambientes
+            </li>
+            <li class="service-card__feature"><i class="ph ph-check mg-r__sm i__sm green"></i>Preparação Final do Espaço
+            </li>
+          </ul>
+          <a href="#" class="service-card__link ">Saiba mais</a>
+        </div>
+      </div>
+    </section>
   </div>
-
-  <section class="services">
-    <div class="services__header">
-      <h2 class="services__title">Soluções de Limpeza Profissional para Qualquer Ambiente</h2>
-      <p class="services__subtitle">Residências, empresas, alojamentos e muito mais. Cuidamos de cada detalhe com
-        eficiência e confiança.</p>
-      <a href="#" class="button button--primary">Solicite seu Orçamento</a>
-    </div>
-    <div class="services__cards">
-      <article class="service-card">
-        <img src="assets/img/Frame76.svg" alt="Airbnb" class="service-card__icon">
-        <h3 class="service-card__title">Limpeza para Airbnb</h3>
-        <ul class="service-card__features">
-          <li class="service-card__feature">Entre hóspedes</li>
-          <li class="service-card__feature">Profunda periódica</li>
-          <li class="service-card__feature">Serviço de lavandaria</li>
-          <li class="service-card__feature">Gestão de inventário</li>
-        </ul>
-        <a href="#" class="service-card__link">Ver detalhes do serviço</a>
-      </article>
-    </div>
-  </section>
-  <section class="testimonials">
+  <section class="testimonials bg__testimonials">
     <h2 class="testimonials__title">Depoimentos de quem confia na Aqui Limpa</h2>
-    <div class="testimonials__list">
-      <article class="testimonial">
-        <img src="assets/img/testimonial1.png" alt="Mariana S." class="testimonial__image">
-        <h3 class="testimonial__name">Mariana S.</h3>
-        <p class="testimonial__location">Foz do Douro</p>
-        <blockquote class="testimonial__quote">“Serviço impecável! Rápidos, pontuais e muito cuidadosos.”</blockquote>
-      </article>
-    </div>
+
+    <div class="testimonials__wrapper">
+      <button class="nav-btn left" onclick="scrollTestimonials('left')">‹</button>
+      <div class="testimonials__carousel" id="testimonialsCarousel">
+        <div class="testimonial">
+          <div class="testimonial__header">
+            <div class="testimonial__image">
+              <img src="assets/img/avatar.png" alt="Mariana S.">
+            </div>
+            <div class="testimonial__header--title">
+              <span class="testimonial__name">Mariana S.</span>
+              <span class="testimonial__location">Foz do Douro</span>
+            </div>
+          </div>
+          <div class="testimonial__quote">
+            <span class="size-font__lg">
+              “
+            </span>
+            Serviço impecável! Rápidos, pontuais e muito cuidadosos.
+            <span class="size-font__lg">
+              ”
+            </span>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__header">
+            <div class="testimonial__image">
+              <img src="assets/img/avatar.png" alt="Mariana S.">
+            </div>
+            <div class="testimonial__header--title">
+              <span class="testimonial__name">Mariana S.</span>
+              <span class="testimonial__location">Foz do Douro</span>
+            </div>
+          </div>
+          <div class="testimonial__quote">
+            <span class="size-font__lg">
+              “
+            </span>
+            Serviço impecável! Rápidos, pontuais e muito cuidadosos.
+            <span class="size-font__lg">
+              ”
+            </span>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__header">
+            <div class="testimonial__image">
+              <img src="assets/img/avatar.png" alt="Mariana S.">
+            </div>
+            <div class="testimonial__header--title">
+              <span class="testimonial__name">Mariana S.</span>
+              <span class="testimonial__location">Foz do Douro</span>
+            </div>
+          </div>
+          <div class="testimonial__quote">
+            <span class="size-font__lg">
+              “
+            </span>
+            Serviço impecável! Rápidos, pontuais e muito cuidadosos.
+            <span class="size-font__lg">
+              ”
+            </span>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__header">
+            <div class="testimonial__image">
+              <img src="assets/img/avatar.png" alt="Mariana S.">
+            </div>
+            <div class="testimonial__header--title">
+              <span class="testimonial__name">Mariana S.</span>
+              <span class="testimonial__location">Foz do Douro</span>
+            </div>
+          </div>
+          <div class="testimonial__quote">
+            <span class="size-font__lg">
+              “
+            </span>
+            Serviço impecável! Rápidos, pontuais e muito cuidadosos.
+            <span class="size-font__lg">
+              ”
+            </span>
+          </div>
+        </div>
+        <div class="testimonial">
+          <div class="testimonial__header">
+            <div class="testimonial__image">
+              <img src="assets/img/avatar.png" alt="Mariana S.">
+            </div>
+            <div class="testimonial__header--title">
+              <span class="testimonial__name">Mariana S.</span>
+              <span class="testimonial__location">Foz do Douro</span>
+            </div>
+          </div>
+          <div class="testimonial__quote">
+            <span class="size-font__lg">
+              “
+            </span>
+            Serviço impecável! Rápidos, pontuais e muito cuidadosos.
+            <span class="size-font__lg">
+              ”
+            </span>
+          </div>
+        </div>
+      </div>
+      <button class="nav-btn right" onclick="scrollTestimonials('right')">›</button>
+
   </section>
 
   <section class="cta">
@@ -168,14 +426,16 @@
         <img src="assets/img/logo_light.svg" alt="Logo" class="whiter footer__logo">
         <p class="footer__description">Serviços de limpeza especializados para residências, comércios, alojamentos
           locais e pós-obras.</p>
-      </div>
-      <div class="footer__social">
-        <h4 class="footer__heading">Redes Sociais</h4>
-        <div class="footer__icons">
-          <i class="ph-fill i__lg ph-facebook-logo"></i>
-          <i class="ph-fill i__lg ph-instagram-logo"></i>
+
+        <div class="footer__social">
+          <h4 class="footer__heading">Redes Sociais</h4>
+          <div class="footer__icons">
+            <i class="ph-fill i__lg ph-facebook-logo"></i>
+            <i class="ph-fill i__lg ph-instagram-logo"></i>
+          </div>
         </div>
       </div>
+
       <div class="footer__links">
         <h4 class="footer__heading">Links Rápidos</h4>
         <ul>
@@ -185,13 +445,6 @@
           <li><a href="#" class="footer__link">Telefone</a></li>
           <li><a href="#" class="footer__link">WhatsApp</a></li>
         </ul>
-      </div>
-      <div class="footer__contact">
-        <h4 class="footer__heading">Endereço</h4>
-        <address>Com. Parque Itália, Rua de Júlio Dinis 752<br> Sala 32, C, 4050-321 Porto</address>
-        <a href="#" class="footer__link">Saiba mais <img src="assets/img/ArrowRight.svg" alt=""></a>
-        <h4 class="footer__heading">Horário de Atendimento</h4>
-        <p>Segunda a sábado: das 9h às 18h</p>
       </div>
     </div>
     <div class="footer__bottom">
