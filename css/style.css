@@ -304,11 +304,17 @@ a {
 }
 
 /* ==== About Section ==== */
+
+.about-and-quality {
+  position: relative;
+}
+
+
 .about {
     background: linear-gradient(180deg, #255e97, #1d4670);
     color: #fff;
     padding: 64px 15%;
-    padding-bottom: 200px;
+    padding-bottom: 240px;
     /* garante que o conteúdo não encoste na .quality */
 }
 
@@ -364,7 +370,7 @@ a {
     background: linear-gradient(115.05deg, #d2e7e0, #e2f1f8 52.4%, #c2e0d8);
     padding: 96px 12%;
     text-align: center;
-    padding-top: 200px;
+   padding-top: 240px; /* garante que o quality não sobreponha */
     justify-items: center
         /* garante que o conteúdo não encoste na .quality */
 
@@ -465,16 +471,17 @@ a {
 }
 
 .quality {
-    position: absolute;
-    left: 50%;
-    transform: translateX(-50%);
-    bottom: -700px;
-    /* encaixa na dobra da próxima section */
-    background: #fff;
-    max-width: 1200px;
-    border-radius: 16px;
-    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-    z-index: 10;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: -150px; /* ajusta esse valor conforme o design */
+  background: #fff;
+  max-width: 1200px;
+  width: 100%;
+  border-radius: 16px;
+  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+  z-index: 10;
+  padding: 32px;
 }
 
 .quality__icon {
