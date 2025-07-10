@@ -46,3 +46,20 @@ function scrollTestimonials(direction) {
       behavior: 'smooth'
     });
   }
+
+
+
+  const observer = new IntersectionObserver((entries, observer) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.classList.add('visible');
+        observer.unobserve(entry.target); // remove se só quiser animar uma vez
+      }
+    });
+  }, {
+    threshold: 0.1 // 10% visível
+  });
+
+  document.querySelectorAll('.fade-in-section').forEach(section => {
+    observer.observe(section);
+  });
