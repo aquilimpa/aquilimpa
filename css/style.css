@@ -10,6 +10,10 @@
     --black: #000000;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -249,6 +253,7 @@ a {
 }
 
 
+
 .focus-hero__text {
     display: flex;
     justify-content: end;
@@ -306,7 +311,7 @@ a {
 /* ==== About Section ==== */
 
 .about-and-quality {
-  position: relative;
+    position: relative;
 }
 
 
@@ -370,7 +375,8 @@ a {
     background: linear-gradient(115.05deg, #d2e7e0, #e2f1f8 52.4%, #c2e0d8);
     padding: 96px 12%;
     text-align: center;
-   padding-top: 240px; /* garante que o quality não sobreponha */
+    padding-top: 240px;
+    /* garante que o quality não sobreponha */
     justify-items: center
         /* garante que o conteúdo não encoste na .quality */
 
@@ -463,6 +469,11 @@ a {
     display: inline-block;
 }
 
+.service-card__link:hover {
+    background-color: #1d4670;
+    color: #fff;
+}
+
 /* ==== Quality Section ==== */
 .divs {
     width: 1px;
@@ -471,17 +482,18 @@ a {
 }
 
 .quality {
-  position: absolute;
-  left: 50%;
-  transform: translateX(-50%);
-  bottom: -150px; /* ajusta esse valor conforme o design */
-  background: #fff;
-  max-width: 1200px;
-  width: 100%;
-  border-radius: 16px;
-  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
-  z-index: 10;
-  padding: 32px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: -150px;
+    /* ajusta esse valor conforme o design */
+    background: #fff;
+    max-width: 1200px;
+    width: 100%;
+    border-radius: 16px;
+    box-shadow: 0 20px 60px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    padding: 32px;
 }
 
 .quality__icon {
@@ -773,6 +785,12 @@ a {
 /* ==== Responsive ==== */
 @media (max-width: 1024px) {
 
+    .focus-hero__text {
+        justify-content: center;
+        top: 0px;
+        margin-bottom: 24px;
+    }
+
     .nav-btn {
         display: none;
     }
@@ -783,6 +801,13 @@ a {
 
     .footer__icons {
         justify-content: center;
+    }
+
+    .hero-container__btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
     }
 
     .hero,
@@ -950,6 +975,19 @@ a {
 
 
 @media (max-width: 480px) {
+     .focus-hero__text {
+        justify-content: center;
+        top: 0px;
+        margin-bottom: 24px;
+    }
+
+    .hero-container__btn {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+    }
 
     .hero__title {
         font-size: 2.5rem;
