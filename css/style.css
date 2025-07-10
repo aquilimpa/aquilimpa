@@ -231,7 +231,7 @@ a {
 /* ==== Hero Section ==== */
 .hero {
     background: linear-gradient(180deg, #fff, #f8f8f8);
-    padding: 64px 15%;
+    padding: 64px 13%;
     display: flex;
     justify-content: center;
 }
@@ -549,7 +549,7 @@ a {
     background-position: center, center;
     background-repeat: no-repeat, no-repeat;
     color: #fff;
-    padding: 64px 64px;
+    padding: 64px 15%;
     /* reduzido para evitar corte horizontal */
     text-align: center;
     overflow-x: hidden;
